@@ -57,10 +57,3 @@ MIT License © 2025 Arijit_Fuzo
 ```
 
 ---
-
-### Key Highlights:
-- Used emojis for visual clarity and engagement.
-- Included installation, file structure, and known issues for easy onboarding.
-- Optimized for a GitHub audience with concise and clear instructions.
-
-Let me know if you'd like to add anything specific! 😊
