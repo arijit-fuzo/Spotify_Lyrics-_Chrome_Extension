@@ -1,0 +1,29 @@
+{
+"manifest_version" : 3,
+"name" : "Spotify Lyrics",
+"version" : "1.0",
+"author" : "Arijit_Fuzo",
+"descricption" : "Displays the lyrics of the song being played on Spotify.com",
+"permissions" : ["tabs","activeTab","storage","scripting"],
+"action" : {
+    "default_popup" : "popup.html",
+    "default_icon" : {
+         "16" : "icon16.png",
+         "48" : "icon48.png",
+         "128" : "icon128.png"
+    },
+     "default_title" : "Spotify Lyrics"
+    },
+"content_scripts" : [
+    {
+        "matches" : ["https://open.spotify.com/*"],
+        "js" : ["content.js"]
+    }
+    ],
+    "icons" : {
+        "128" : "icon128.png"
+    },
+    "background" : {
+        "service _worker" : ["background.js"]
+    }
+}
